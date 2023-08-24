@@ -33,6 +33,7 @@
       - sshuttle
       - golang
       - curl
+      - webshells
     state: latest
   become: true
   become_method: sudo
