@@ -19,6 +19,17 @@
       - firefox-esr
       - powershell
       - freerdp2-x11
+      - proxychains
+      - jq
+      - pipx
+      - flameshot
+      - exiftool
+      - tmux-plugin-manager
+      - nfs-common
+      - exploitdb
+      - ftp
+      - docker.io
+      - sshuttle
     state: latest
   become: true
   become_method: sudo
