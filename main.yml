@@ -2,4 +2,14 @@
   hosts: localhost
   connection: local
   roles:
-    - role: "roles/install-packages"
+    - role: "roles/install-packages" 
+    - role: gantsign.visual-studio-code
+      users:
+        - username: "{{ ansible_user_id }}" 
+          visual_studio_code_extensions:
+            - ms-vscode.powershell
+            - ms-python.python
+            - eamodio.gitlens
+            - redhat.vscode-yaml
+            - ms-azuretools.vscode-docker
+            - hediet.vscode-drawio
