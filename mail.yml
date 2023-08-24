@@ -1,0 +1,5 @@
+- name: "Customizing Parrot"
+  hosts: localhost
+  connection: local
+  roles:
+    - role: "roles/install-packages"
