@@ -35,6 +35,8 @@
       - curl
       - webshells
       - metasploit-framework
+      - hydra
+      - hashcat
     state: latest
   become: true
   become_method: sudo
