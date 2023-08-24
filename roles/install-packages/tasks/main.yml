@@ -15,6 +15,7 @@
       - mate-core
       - mate-desktop-environment-extra 
       - mate-desktop-environment-extras
+      - kali-themes
       - xrdp
       - firefox-esr
       - powershell
@@ -30,6 +31,8 @@
       - ftp
       - docker.io
       - sshuttle
+      - golang
+      - curl
     state: latest
   become: true
   become_method: sudo
