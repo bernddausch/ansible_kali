@@ -12,8 +12,9 @@
 - name: "Installing Packages"
   package:
     name:
-      - mate-desktop
-      - mate-tweak
+      - mate-core
+      - mate-desktop-environment-extra 
+      - mate-desktop-environment-extras
       - xrdp
     state: latest
   become: true
