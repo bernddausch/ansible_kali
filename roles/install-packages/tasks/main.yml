@@ -39,6 +39,7 @@
       - hashcat
       - wireshark-qt
       - openvpn
+      - gobuster
     state: latest
   become: true
   become_method: sudo
