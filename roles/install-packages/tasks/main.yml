@@ -13,7 +13,7 @@
   package:
     name:
       - mate-desktop
-      - mate-tweaks
+      - mate-tweak
     state: latest
   become: true
   become_method: sudo
