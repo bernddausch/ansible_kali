@@ -1,0 +1,4 @@
+---
+# vars file for roles/configure-git
+git_email: 'github@dausch.email'
+git_name: 'bernddausch'

@@ -1,0 +1,15 @@
+---
+- name: "install Kerbrute"
+  shell: go install github.com/ropnop/kerbrute@master
+- name: "install fuff"
+  shell: go install github.com/ffuf/ffuf/v2@latest
+- name: "install chisel"
+  shell: go install github.com/jpillora/chisel@latest
+- name: "Added Path to Profile.d"
+  copy:
+    dest: /etc/profile.d/custom-go-lang-path.sh
+    content: 'export PATH=$PATH:~/go/bin/'
+    mode: 0644
+  become: true
+
+  

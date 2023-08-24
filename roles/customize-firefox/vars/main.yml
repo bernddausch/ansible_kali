@@ -1,0 +1,7 @@
+---
+# vars file for configure-browser
+FirefoxPluginsInstall:
+  - "foxyproxy-standard"
+  - "wappalyzer"
+  - "bitwarden-password-manager"
+

@@ -4,3 +4,9 @@
   roles:
     - role: "roles/install-packages" 
     - role: "roles/install-vscode"
+    - role: "roles/add-githubstuff"
+    - role: "roles/customize-get"
+    - role: "roles/customize-firefox"
+    - role: "roles/install-gems"
+    - role: "roles/install-gotools"
+    - role: "roles/install-pip"
