@@ -16,6 +16,7 @@
       - mate-desktop-environment-extra 
       - mate-desktop-environment-extras
       - xrdp
+      - firefox-esr
     state: latest
   become: true
   become_method: sudo
