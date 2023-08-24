@@ -37,6 +37,7 @@
       - metasploit-framework
       - hydra
       - hashcat
+      - wireshark-qt
     state: latest
   become: true
   become_method: sudo
