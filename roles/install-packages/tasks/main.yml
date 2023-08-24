@@ -40,8 +40,8 @@
       - wireshark-qt
       - openvpn
       - gobuster
-      - dirb
-      - dirbuster
+      - hashid
+      - nikto
     state: latest
   become: true
   become_method: sudo
