@@ -17,6 +17,8 @@
       - mate-desktop-environment-extras
       - xrdp
       - firefox-esr
+      - powershell
+      - freerdp2-x11
     state: latest
   become: true
   become_method: sudo
