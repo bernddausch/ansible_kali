@@ -21,6 +21,6 @@
 - name: "Add gem bin dir to $PATH"
   copy:
     dest: /etc/profile.d/custom-gem-path.sh
-    content: 'export PATH=$PATH:~/.local/share/gem/ruby/2.7.0/bin/'
+    content: 'export PATH=$PATH:~/.local/share/gem/ruby/3.1.0/bin/'
     mode: 0644
   become: true
