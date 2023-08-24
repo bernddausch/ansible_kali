@@ -15,8 +15,6 @@
       - mate-desktop
       - mate-tweak
       - xrdp
-      - langpacks-en 
-      - glibc-all-langpacks
     state: latest
   become: true
   become_method: sudo
