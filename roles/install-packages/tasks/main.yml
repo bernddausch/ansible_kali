@@ -38,6 +38,7 @@
       - hydra
       - hashcat
       - wireshark-qt
+      - openvpn
     state: latest
   become: true
   become_method: sudo
