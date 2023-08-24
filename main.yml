@@ -3,4 +3,4 @@
   connection: local
   roles:
     - role: "roles/install-packages" 
-
+    - role: "roles/install-vscode"
