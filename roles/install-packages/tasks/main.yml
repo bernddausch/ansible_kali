@@ -40,6 +40,8 @@
       - wireshark-qt
       - openvpn
       - gobuster
+      - dirb
+      - dirbuster
     state: latest
   become: true
   become_method: sudo
