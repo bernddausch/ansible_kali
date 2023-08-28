@@ -43,6 +43,7 @@
       - hashid
       - nikto
       - smbclient
+      - smbmap
     state: latest
   become: true
   become_method: sudo
