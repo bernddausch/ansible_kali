@@ -42,6 +42,7 @@
       - gobuster
       - hashid
       - nikto
+      - smbclient
     state: latest
   become: true
   become_method: sudo
