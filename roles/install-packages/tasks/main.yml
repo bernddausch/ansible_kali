@@ -37,7 +37,7 @@
       - metasploit-framework
       - hydra
       - hashcat
-      - wireshark-qt
+      - wireshark
       - openvpn
       - gobuster
       - feroxbuster
