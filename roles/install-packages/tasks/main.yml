@@ -45,6 +45,7 @@
       - nikto
       - smbclient
       - smbmap
+      - telnet
     state: latest
   become: true
   become_method: sudo
