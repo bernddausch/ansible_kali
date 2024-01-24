@@ -18,3 +18,37 @@
     state: latest
   become: true
   become_method: sudo
+
+- name: "Install WebTools"
+  package:
+    name: 
+      - burpsuite
+      - chromium
+      - feroxbuster
+    state: latest
+  become: true
+  become_method: sudo
+
+- name: "Install Wordlists"
+  package:
+    name:
+      - seclists
+    state: latest
+  become: true
+  become_method: sudo
+
+- name: "Install SNMP Tools"
+  package:
+    name:
+      - onesixtyone
+      - snmpenum
+      - snmp-mibs-downloader
+    state: latest
+  become: true
+  become_method: sudo
+
+- name: "Download SNMP Mibs"
+  shell: download-mibs
+  become: true
+  become_method: sudo
+  
