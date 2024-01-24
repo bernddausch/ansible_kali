@@ -12,39 +12,6 @@
 - name: "Installing Packages"
   package:
     name:
-      - mate-core
-      - mate-desktop-environment-extra 
-      - mate-desktop-environment-extras
-      - kali-themes
-      - xrdp
-      - firefox-esr
-      - powershell
-      - freerdp2-x11
-      - proxychains
-      - jq
-      - pipx
-      - flameshot
-      - exiftool
-      - tmux-plugin-manager
-      - nfs-common
-      - exploitdb
-      - ftp
-      - docker.io
-      - sshuttle
-      - golang
-      - curl
-      - webshells
-      - metasploit-framework
-      - hydra
-      - hashcat
-      - wireshark
-      - openvpn
-      - gobuster
-      - feroxbuster
-      - hashid
-      - nikto
-      - smbclient
-      - smbmap
       - telnet
     state: latest
   become: true

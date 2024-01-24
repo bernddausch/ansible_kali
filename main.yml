@@ -2,7 +2,7 @@
   hosts: localhost
   connection: local
   roles:
-    #- role: "roles/install-packages" 
+    - role: "roles/install-packages" 
     #- role: "roles/install-vscode"
     #- role: "roles/add-githubstuff"
     - role: "roles/customize-git"
