@@ -2,12 +2,12 @@
   hosts: localhost
   connection: local
   roles:
-    - role: "roles/install-packages" 
-    - role: "roles/install-vscode"
-    - role: "roles/add-githubstuff"
+    #- role: "roles/install-packages" 
+    #- role: "roles/install-vscode"
+    #- role: "roles/add-githubstuff"
     - role: "roles/customize-git"
     - role: "roles/customize-firefox"
-    - role: "roles/install-gems"
-    - role: "roles/install-gotools"
+    #- role: "roles/install-gems"
+    #- role: "roles/install-gotools"
     #- role: "roles/install-pip"
-    - role: "roles/customize-shell"
+    #- role: "roles/customize-shell"
