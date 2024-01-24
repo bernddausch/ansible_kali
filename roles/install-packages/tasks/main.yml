@@ -24,6 +24,7 @@
     name: 
       - burpsuite
       - chromium
+      - gobuster
       - feroxbuster
     state: latest
   become: true
