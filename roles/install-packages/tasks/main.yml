@@ -9,10 +9,12 @@
   become: true
   become_method: sudo
   
-- name: "Installing Packages"
+- name: "Installing Base Packages"
   package:
     name:
       - telnet
+      - tmux
+      - tmux-plugin-manager
     state: latest
   become: true
   become_method: sudo
