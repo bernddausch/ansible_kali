@@ -10,4 +10,4 @@
     #- role: "roles/install-gems"
     #- role: "roles/install-gotools"
     #- role: "roles/install-pip"
-    #- role: "roles/customize-shell"
+    - role: "roles/customize-shell"
