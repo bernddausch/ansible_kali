@@ -1,6 +1,6 @@
 ---
 - name: "install Kerbrute"
-  shell: go install github.com/ropnop/kerbrute@masters
+  shell: go install github.com/ropnop/kerbrute@latest
 - name: "Added Path to Profile.d"
   copy:
     dest: /etc/profile.d/custom-go-lang-path.sh
