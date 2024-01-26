@@ -15,6 +15,7 @@
       - telnet
       - tmux
       - tmux-plugin-manager
+      - xclip
     state: latest
   become: true
   become_method: sudo

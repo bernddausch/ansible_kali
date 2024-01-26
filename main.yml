@@ -8,6 +8,6 @@
     - role: "roles/customize-git"
     - role: "roles/customize-firefox"
     #- role: "roles/install-gems"
-    #- role: "roles/install-gotools"
+    - role: "roles/install-gotools"
     #- role: "roles/install-pip"
     - role: "roles/customize-shell"
