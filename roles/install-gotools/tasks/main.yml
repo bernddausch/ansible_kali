@@ -1,10 +1,6 @@
 ---
 - name: "install Kerbrute"
-  shell: go install github.com/ropnop/kerbrute@master
-- name: "install fuff"
-  shell: go install github.com/ffuf/ffuf/v2@latest
-- name: "install chisel"
-  shell: go install github.com/jpillora/chisel@latest
+  shell: go install github.com/ropnop/kerbrute@masters
 - name: "Added Path to Profile.d"
   copy:
     dest: /etc/profile.d/custom-go-lang-path.sh
