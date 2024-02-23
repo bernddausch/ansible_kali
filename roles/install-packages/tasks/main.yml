@@ -17,6 +17,7 @@
       - tmux-plugin-manager
       - xclip
       - golang
+      - peass
     state: latest
   become: true
   become_method: sudo
