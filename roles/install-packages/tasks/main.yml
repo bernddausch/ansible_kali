@@ -18,6 +18,7 @@
       - xclip
       - golang
       - peass
+      - libreoffice
     state: latest
   become: true
   become_method: sudo
