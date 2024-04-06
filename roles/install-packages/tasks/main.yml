@@ -19,6 +19,7 @@
       - golang
       - peass
       - libreoffice
+      - docker.io
     state: latest
   become: true
   become_method: sudo
