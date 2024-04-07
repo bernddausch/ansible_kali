@@ -20,6 +20,7 @@
       - peass
       - libreoffice
       - docker.io
+      - docker-compose
     state: latest
   become: true
   become_method: sudo
