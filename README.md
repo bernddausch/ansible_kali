@@ -4,5 +4,5 @@
 
 - Add Chezmoi 
     - install chezmoi sh -c "$(wget -qO- get.chezmoi.io)"
-    - chezmoi init --apply bernddausch@github.com:bernddausch/dotfiles.git
+    - chezmoi init --apply github.com/bernddausch/dotfiles.git
 
