@@ -19,8 +19,8 @@
       - golang
       - peass
       - libreoffice
-      - docker.io
-      - docker-compose
+      - podman
+      - podman-compose
     state: latest
   become: true
   become_method: sudo
