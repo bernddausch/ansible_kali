@@ -21,6 +21,7 @@
       - libreoffice
       - podman
       - podman-compose
+      - spice-vdagent
     state: latest
   become: true
   become_method: sudo
