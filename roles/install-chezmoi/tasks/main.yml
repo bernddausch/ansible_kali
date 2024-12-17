@@ -1,0 +1,10 @@
+---
+- name: Install Chezmoi
+  ansible.builtin.shell: |
+    sh -c "$(wget -qO- get.chezmoi.io)"
+    mv bin/chezmoi /usr/local/bin/chezmoi
+    rm -rf ~/bin
+  become: true
+
+- name: Clone Settings from Github Repo
+  ansible.builtin.shell: chezmoi init --apply github.com/bernddausch/dotfiles.git
