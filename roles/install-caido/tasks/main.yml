@@ -1,0 +1,9 @@
+---
+# tasks file for role/install-caido
+
+- name: Install CAIDO
+  ansible.builtin.shell: |
+    wget https://caido.download/releases/v0.44.1/caido-desktop-v0.44.1-linux-aarch64.deb 
+    dpkg -i caido-desktop-v0.44.1-linux-aarch64.deb 
+    rm caido-desktop-v0.44.1-linux-aarch64.deb 
+  become: true
