@@ -23,6 +23,8 @@
       - podman-compose
       - spice-vdagent
       - jq
+      - make
+      - cmake
     state: latest
   become: true
   become_method: sudo
