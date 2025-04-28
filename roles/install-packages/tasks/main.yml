@@ -25,6 +25,8 @@
       - jq
       - make
       - cmake
+      - chisel
+      - ligolo-ng
     state: latest
   become: true
   become_method: sudo
