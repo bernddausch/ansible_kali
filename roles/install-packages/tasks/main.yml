@@ -27,6 +27,8 @@
       - cmake
       - chisel
       - ligolo-ng
+      - naabu
+      - nuclei
     state: latest
   become: true
   become_method: sudo
