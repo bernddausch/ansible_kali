@@ -19,8 +19,6 @@
       - golang
       - peass
       - libreoffice
-      - podman
-      - podman-compose
       - spice-vdagent
       - jq
       - make
