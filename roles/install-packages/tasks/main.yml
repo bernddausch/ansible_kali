@@ -27,6 +27,7 @@
       - ligolo-ng
       - naabu
       - nuclei
+      - caido
     state: latest
   become: true
   become_method: sudo
