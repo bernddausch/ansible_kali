@@ -26,8 +26,6 @@
       - chisel
       - ligolo-ng
       - naabu
-      - nuclei
-      - caido
     state: latest
   become: true
   become_method: sudo
@@ -35,10 +33,11 @@
 - name: "Install WebTools"
   package:
     name: 
-      - burpsuite
+      - caido
       - chromium
       - gobuster
       - feroxbuster
+      - nuclei
     state: latest
   become: true
   become_method: sudo
