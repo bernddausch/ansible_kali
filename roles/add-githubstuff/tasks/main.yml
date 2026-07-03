@@ -6,7 +6,5 @@
   loop:
     - { repo: "https://github.com/Flangvik/SharpCollection", location: "/opt/repos/SharpCollection" }
     - { repo: "https://github.com/PowerShellMafia/PowerSploit.git", location: "/opt/repos/PowerSploit" }
-
-
-
+    - { repo: "https://github.com/h8handles/ntlm_theftCTF.git", location: "/opt/repos/ntlm_theft"}
 

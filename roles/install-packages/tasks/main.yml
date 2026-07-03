@@ -26,6 +26,7 @@
       - chisel
       - ligolo-ng
       - naabu
+      - krb5-user
     state: latest
   become: true
   become_method: sudo
