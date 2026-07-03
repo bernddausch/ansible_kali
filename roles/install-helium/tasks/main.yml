@@ -1,0 +1,7 @@
+- name: Install Helium Browser
+  ansible.builtin.shell: |
+    export FILE=$(curl https://api.github.com/repos/imputnet/helium-linux/releases/latest | jq .assets.[].browser_download_url | grep "arm64.deb" | sed 's/\"//g')
+    wget $FILE -O /tmp/helium.deb
+    dpkg -i /tmp/helium.deb
+    #rm /tmp/helium.deb
+  become: true
