@@ -8,8 +8,8 @@
     - role: customize-git
     - role: customize-firefox
     #- role: install-gems
-#    - role: install-gotools
-#    - role: customize-shell
+    - role: install-gotools
+    - role: customize-shell
     - role: install-chezmoi
 #    - role: install-dotnet
     - role: install-pwsh
